@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShakeImageView">
+        <attr name="shakable" format="boolean"/>
+        <attr name="shake_range" format="float"/>
+        <attr name="shake_duration" format="integer"/>
+        <attr name="shake_mode" format="enum">
+            <enum name="shakeX" value="1"/>
+            <enum name="shakeY" value="2"/>
+            <enum name="rotate" value="3"/>
+            <enum name="zoom" value="4"/>
+        </attr>
+    </declare-styleable>
+</resources>
